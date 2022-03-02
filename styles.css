@@ -1,0 +1,164 @@
+@font-face {
+        font-family: 'Barlow';
+        src: url('barlow/Barlow-Regular.otf');
+        font-weight: normal;
+        font-style: normal;
+}
+
+body  {	
+	background-color: #EFF6FF; 
+	font-family: 'Barlow';
+}
+
+
+.fixed-container {
+	width: 1600px;
+	margin: 0 auto;
+}
+
+#left-column {
+	width: 759px;
+	height: 1000px;
+	margin-left: 80px;
+	margin-top: 100px;
+	float: left;
+}
+
+#right-column {
+	width: 680px;
+	margin-top: 100px;
+	padding-left: 70px;
+	float: left;
+	background-color: white; 
+}
+
+
+#right-column h2 {
+	margin-top: 120px;
+	margin-bottom: 20px;
+}
+ 
+#right-column h3 {
+	color: grey;
+}
+
+#buttons {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+#button-facebook {
+	width: 250px;
+	height: 45px;
+	margin-right: 35px;
+	background-color: #255b9b;
+	color: white;
+	background-image: url('images/facebook.svg'); 
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: 5% 50%;
+
+}
+
+#button-LinkedIn {
+	width: 250px;
+	height: 45px;
+	background-color: #0076b6;
+	color: white;
+	background-image: url('images/linkedin.svg'); 
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: 5% 50%;
+}
+
+
+
+.title {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: -140px;
+}
+.title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.title:before,
+.title:after {
+    /* Обязательно указываем пустое свойство content, 
+    ** иначе псевдоэлементы не появятся на сайте */
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 108px;
+    height: 2px;
+    background-color: #e5e5e5;
+    position: relative;
+}
+.title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+#input input {
+	padding-bottom: 20px;
+	width: 250px;
+	height: 56px;
+	margin-right: 25px;
+
+}
+
+#input textarea {
+	width: 250px;
+	height: 56px;
+	margin-right: 25px;
+	resize: none;
+}
+
+#Investor h2 {
+	margin-top: 60px;
+	color: grey;
+}
+
+#radio {
+	margin-top: 30px;
+	float:left;
+	display: inline-block;
+	margin-right: 30px;
+	font-family: "Barlow";
+}
+
+#tablet {
+	margin-top: 100px;
+	width: 250px;
+	height: 70px;
+	border: 8px;
+	box-shadow: 0px 11px 26px -3px #c0c0c0;
+	color: grey;
+}
+
+#checkBox {
+	margin-top: 30px;
+}
+
+#checkBox input {
+	margin-right: 20px;
+}
+
+
+#buttonAccount {
+	width: 250px;
+	height: 45px;
+	border-radius: 8px;
+	margin-right: 35px;
+	margin-top: 40px;
+	background-color: #3698fb;
+	color: white; 
+}
+
+
