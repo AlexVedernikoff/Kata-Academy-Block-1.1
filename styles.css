@@ -53,7 +53,7 @@ body  {
 	margin-right: 35px;
 	background-color: #255b9b;
 	color: white;
-	background-image: url('images/facebook.svg'); 
+	background-image: url('Images/facebook.svg'); 
 	background-repeat: no-repeat;
 	background-size: 25px;
 	background-position: 5% 50%;
@@ -65,7 +65,7 @@ body  {
 	height: 45px;
 	background-color: #0076b6;
 	color: white;
-	background-image: url('images/linkedin.svg'); 
+	background-image: url('Images/linkedin.svg'); 
 	background-repeat: no-repeat;
 	background-size: 25px;
 	background-position: 5% 50%;
